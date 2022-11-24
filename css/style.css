@@ -1,0 +1,137 @@
+/* import fonts from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-nav{
+    position: relative;
+}
+.nav-link{
+    text-transform: uppercase;
+    transition: width .3s ease-in-out;
+    position: relative;
+    font-size: 15px;
+}
+
+/* .nav-link::after{
+    content: "";
+    position: absolute;
+    width: 45px;    
+    height: 2px;
+    background-color: black;
+    bottom: 0px;
+    left: auto;
+    right: auto;
+} */
+/* .nav-link:hover::after,
+.nav-link.active::after{
+    width: 30px;
+} */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active{
+    color: #000 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover{
+    box-shadow: none;
+    border: none;
+    
+}
+
+
+/* bg container  */
+body{
+    background: #f1fbff;
+
+}
+
+
+.section-padding {
+    padding: 100px 0px;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+font-size: 45px;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-top: 25px;
+}
+.carousel-caption p{
+width: 60%;
+margin: auto;
+font-size: 18px;
+line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.537);
+    z-index: 1;
+}
+
+.btn{
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.w-100{
+    height: 100vh;
+}
+
+.about-img , .about-text{
+    margin: 10px 0px;
+    box-shadow: 1px 1px 10px 5px rgba(223, 255, 255, 0.597);
+}
+
+
+ /* services setion  */
+
+ .card-body i{
+    font-size: 45px;
+ }
+
+ .card{
+    box-shadow: 1px 1px 10px 4px rgb(81, 75, 76);
+ }
+.font{
+    font-size: 14px;
+}
+.socials i{
+    font-size: 22px;
+    /* margin: 0px 5px; */
+
+}
+.socials a{
+    margin: 0px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}

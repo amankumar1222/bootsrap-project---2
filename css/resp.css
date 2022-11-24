@@ -1,0 +1,52 @@
+@media only screen and (max-width: 760px) {
+    .carousel-caption h5 {
+        font-size: 35px;
+
+    }
+
+    .carousel-caption p {
+        width: 80%;
+        margin: auto;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+    .card{
+        margin: 15px 0px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .navbar-brand {
+        font-size: 22px;
+
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+    .carousel-caption h5 {
+        font-size: 25px;
+
+    }
+
+    .carousel-caption p {
+        width: 90%;
+        margin: auto;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .btn {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+  
+
+}
